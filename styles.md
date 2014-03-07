@@ -192,7 +192,7 @@ Opting for mobile-first or employing responsive breakpoints desktop-down should 
 
 ## Examples
 
-```css
+```scss
 /* _layout.scss */
 
 /* Modifying a module as layout requires */
@@ -287,6 +287,3 @@ Opting for mobile-first or employing responsive breakpoints desktop-down should 
 	}
 }
 ```
-
-## Caveats
-Long class-names, prefixed/grouped classes and nested modules dependant on parent modules all use single dashes, but the complexity of the BEM structure can be adjusted on a per-project basis ([reference](https://gist.github.com/necolas/1309546)).
