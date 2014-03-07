@@ -68,7 +68,7 @@ Examples:
 	font-size: 1.8rem;
 }
 
-/* single direction margins */
+/* single direction margins. Use discretion where applicable. */
 p { margin: 0 0 2.4em; }
 h1,
 h2,
@@ -89,6 +89,8 @@ h3 { margin: 0 0 1.4em; }
 
 Examples:
 ```scss
+/* _vars.scss */
+
 /* Prefixed/grouped vars */
 $c-primary: #f00;
 $c-secondary: #00f;
