@@ -1,7 +1,5 @@
 # Responsive Design
 
-*Work in progress…*
-
 ## Thinking Responsively & Acting Responsibly
 
 *todo*
