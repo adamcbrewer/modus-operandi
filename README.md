@@ -1,13 +1,18 @@
 modus-operandi
 ==============
-aka method of operation.
 
-This is a guide I use as a reference for my own development standards.
+This is a guideline showing the development standards I work to and conventions I use (aka method of operation). Some content was added for reference and sharing.
 
 ## Table of Contents
-+ [CSS, SASS and other style bits](styles.md)
+
+### My Own Development Standards
++ [Workflow](workflow.md)
++ [CSS/SASS Conventions](styles.md)
 + [Javascript](javascript.md)
 + [HTML](html.md)
++ [Performance](performance.md)
+
+### Nuggets of Truth
 + [Responsive Design](responsive-design.md)
 + [Browser Caveats](browser-caveats.md)
 
