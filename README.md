@@ -9,6 +9,7 @@ This is a guide I use as a reference for my own development standards.
 + [Javascript](javascript.md)
 + [HTML](html.md)
 + [Responsive Design](responsive-design.md)
++ [Browser Caveats](browser-caveats.md)
 
 ## Inspiration, References & Credit
 * [Code-guide by @mdo](http://mdo.github.io/code-guide/)
