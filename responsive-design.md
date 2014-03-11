@@ -2,7 +2,34 @@
 
 ## Thinking Responsively & Acting Responsibly
 
-*todo*
+#### Making a website responsive and device agnostic is easy – the Web is inherently responsive and accessible. As designers and developers, we only have ourselves to blame for breaking sites.
+
+An excerpt from [Jeff Veen's talk at SXSW c. 2004](http://veen.com/jeff/archives/000503.html) which I think is the most succinct description out there about what accessibility and responsivness actually means:
+
+> I end up delivering solutions to my clients that are far less complex to implement, are much easier to maintain, cost exponentially less to serve, work on multiple browsers and devices, do way better in the search engine lottery, and — of course — are accessible to everyone … everyone … using the Web today. And try to argue with the business value of that.
+
+> …
+
+> And that’s why I don’t care about accessibility. Because when Web design is practiced as a craft, and not a consolation, accessibility comes for free.
+
+I found that article through [Trent Walton's post on being "Device Agnostic"](http://trentwalton.com/) which he said very well.
+
+> A responsive site may have flexible grids, fluid images, and media queries, but if it also scroll-hijacks desktop monitors while stutter-scrolling on touch devices, auto-loads heavy videos that break data plans, or asks users to rotate their screens 90° for the full immersive experience, I’d argue it’s not device-agnostic. Many sites, responsive or not, are built only with ideal scenarios and a small set of devices in mind.
+
+> …
+
+> I use the term device-agnostic, now synonymous (to me) with good web design, to distinguish those sites that embrace the inherent variability of the web—which, in itself, is nothing new.
+
+…and so Jeff Veen entered my life. But Trent went on further to say:
+
+> As web designers, it is our role to consider (and plan for) maximum reach and access, even when final results might seem underwhelming or less immersive.
+
+> …
+
+> With anything added to a page, you need to be able to answer the question of “What value does this provide?” and in turn be able to determine if the value outweighs the pain.
+
+In closing: there is a difference between support and optimization.
+
 
 ## Grids and layout
 
