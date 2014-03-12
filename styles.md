@@ -1,18 +1,17 @@
 # CSS
 
-## Universal Pricipals
-* All lowercase.
+## Be Neat, Professional and Responsible
+
 * Four-space indentation.
 * Remove unit specifiers with values of zero.
-* grouped selectors should be each be on their own line.
+* Grouped selectors should be each be on their own line.
 * Comma-separated values should include a space after each comma.
 * Hex values should all be lowercase; shorthand where possible.
 * [Obey the CSS Inception rule](http://thesassway.com/beginner/the-inception-rule): never go more than three levels deep.
 * `px` font-sizes should always be avoided where possible; opt for `em` or preferably `rem`.
-* single value declarations can exist on a single line if needed.
-* Declare styles with as weak/little specificity as possible and use the cascading effect within layouts and modules where needed.
+* Single value declarations can exist on a single line if needed.
+* Use `%` units for layout styles that change (like left/right paddings), `ems` for elements which are sized relevant to their font size (like buttons) and `px` only when content/layout is static and does not change.
 
-Examples:
 ```scss
 /* grouped selectors */
 .btn,
@@ -37,8 +36,7 @@ Examples:
 	font-size: 16px;
     font-size: 1.6rem;
 }
-
-/* A SASS rem/em font-size mixin */
+/* A SASS rem/em font-size mixin to help in assisting the above font-size declarations */
 @mixin font-size($sizeValue: 1.4) {
     $remValue: $sizeValue;
     $pxValue: ($sizeValue * 10);
@@ -47,47 +45,53 @@ Examples:
 }
 ```
 
-## Responsive Styles
-* **AVOID:** `px`, `width` & `height` on all declarations. These are reserved for components whose dimentions and positions are unaffected by resizing/screen-size.
-* `max-width` should be the first port of call if a width declaration is required; height declarations are unnecessary 99% of the time if correct DOM flow is obeyed and the box-model is correctly understood.
-* Always use `%` units for left & right paddings and margins on `block` elements and components.
-* In addition to `%`, use `em` units for both `inline` and `inline-block` components.
-* Component margins should follow [single directions declarations](http://csswizardry.com/2012/06/single-direction-margin-declarations/).
 
-Examples:
-```scss
-/* percentage padding */
-.wrapper {
-	padding: 10px 4%; /* px OK here as typographic flow is unaffected */
-}
+## Naming Conventions
 
-/* em padding on inline elements - button size responds to font size. */
-.btn {
-	padding: 0.4em 1.2em;
-	display: inline-block;
-	font-size: 1.8rem;
-}
+Conventions are great, but being too over-specific and hard-arsed can really be difficult to work with and takes up more time than it's worth. Working quickly and efficiently is the main goal here, so the following only serves as a best-practices guide.
 
-/* single direction margins. Use discretion where applicable. */
-p { margin: 0 0 2.4em; }
-h1,
-h2,
-h3 { margin: 0 0 1.4em; }
+The extend of the BEM conventions totally depends on the size of the project and the number of developer involved. Larger projects need more rigid conventions whereas smaller ones usually don't run in to maintainability issues.
 
-/* responsive, centered content box using max-width amd margins */
-.box {
-	max-width: 12em; /* can be px */
-	margin: 0 auto 2em;
-}
+### Modules
 
+Module names should be terse, non-presentational and broken down into module, submodules, modifiers, and states. If a module name comprises of two words then remove the spacing (although camelCasing could also be a consideration).
+
+### Submodules
+
+Use a single hyphen to write submodules. For example, `.module-submodule`. Pluralised modules such as `.tabs` can have submodules named `.tab` as an exception.
+
+### Modifiers
+
+Both modules and submodules can be modified with extender-classes, using double dashes to show the modification, e.g. `.module--modifier` and `.module-submodule--modifier`.
+
+### States
+
+Element states are prefixed appropriately, e.g. `.is-*` and can be declared on their own (`.is-visible`) or be entirely module dependant (`.is-favourite`). Examples: `is-active`, `is-loaded` and `is-open`.
+
+Typically these states are a result of some sort of Javascript interaction.
+
+### Context
+
+It depends how complex the site is and how it functions, but adding a 'context' class [is new variation to me](https://github.com/suitcss). Contexts like `.has-content`, `.has-dropdown` and `.can-open` can be really expressive.
+
+
+### Hooks (for Javascript)
+Javascript hooks are prefixed with `.js-*` and **never** delared anywhere in stylesheets – his helps maintain good code/style separation.
+
+```html
+<button class="btn btn--primary js-toggle"></button>
 ```
 
-## SASS Specific
+### Utilities
+Low-level structure and composition. Utilities can be applied directly to any element within a component or exist on their own, such as `.u-pull-left` or `.u-inline-block`. I find utilities are only needed where designs contain a lot of unique styling situations.
+
+### Using SASS
 * Variables should prefixed and grouped according to their purpose/function.
 * Modules and components should be separated from layout (site structure).
 * Module declarations should always be included in your SASS import-sheet **after** layout declarations.
+* Opting for mobile-first or employing responsive breakpoints desktop-down should – in my mind – follow the cascade. Saying this, I prefer to have these at the end of all my other styles.
 
-Examples:
+
 ```scss
 /* _vars.scss */
 
@@ -110,15 +114,6 @@ $ff: $f-body, Arial, sans-serif;
 @import "media";
 ```
 
-## Structure and BEM Conventions
-* Never use CamelCase.
-* Module naming is terse and non-specific.
-* Prefixed/grouped modules that share common traits are separated by a single dash.
-* Extended modules require a double dash.
-
-The extend of the BEM conventions totally depends on the size of the project and the number of developer involved. Larger projects need more rigid conventions whereas smaller ones usually don't run in to maintainability issues.
-
-Examples:
 ```scss
 /* module declaration */
 .icon {
@@ -175,25 +170,6 @@ Examples:
 
 ```
 
-## Javascript Hooks
-JS hooks are prefixed with `.js-*` and **never** delared anywhere in the styles. This helps maintain good code/style separation. Additionally, the `id` in unique selections with optional `[data-*]` attributes (further explained in the Javascript section).
-
-Example:
-```html
-<button class="btn btn--primary js-toggle"></button>
-```
-
-## Element/Component States
-Element states are prefixed appropriately, e.g. `.is-*` and can be declared on their own (`.is-visible`) or be entirely module dependant (`.is-favourite`). Typically these states are a result of some sort of Javascript interaction.
-
-## Utilities
-Low-level structural, positional, and visual traits. Utilities can be applied directly to any element within a component.
-
-## Media Queries
-Opting for mobile-first or employing responsive breakpoints desktop-down should – in my mind – follow the cascade. Saying this, I prefer to have these at the end of all my other styles.
-
-## Examples
-
 ```scss
 /* _layout.scss */
 
@@ -207,7 +183,7 @@ Opting for mobile-first or employing responsive breakpoints desktop-down should 
 
 ```
 
-``` css
+```scss
 /* _modules.scss */
 
 /* Utilities */
@@ -288,4 +264,40 @@ Opting for mobile-first or employing responsive breakpoints desktop-down should 
 		color: inherit;
 	}
 }
+```
+
+### Rsponsive Styling
+
+* **AVOID:** `px`, `width` & `height` on all declarations. These are reserved for components whose dimentions and positions are unaffected by resizing/screen-size.
+* `max-width` should be the first port of call if a width declaration is required; height declarations are unnecessary 99% of the time if correct DOM flow is obeyed and the box-model is correctly understood.
+* Always use `%` units for left & right paddings and margins on `block` elements and components.
+* In addition to `%`, use `em` units for both `inline` and `inline-block` components.
+* Component margins should follow [single directions declarations](http://csswizardry.com/2012/06/single-direction-margin-declarations/).
+
+```scss
+
+/* percentage padding */
+.wrapper {
+	padding: 10px 4%; /* px OK here as typographic flow is unaffected */
+}
+
+/* em padding on inline elements - button size responds to font size. */
+.btn {
+	padding: 0.4em 1.2em;
+	display: inline-block;
+	font-size: 1.8rem;
+}
+
+/* single direction margins. Use discretion where applicable. */
+p { margin: 0 0 2.4em; }
+h1,
+h2,
+h3 { margin: 0 0 1.4em; }
+
+/* responsive, centered content box using max-width amd margins */
+.box {
+	max-width: 12em; /* can be px */
+	margin: 0 auto 2em;
+}
+
 ```

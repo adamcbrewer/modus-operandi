@@ -1,4 +1,4 @@
-# Workflow / Dao
+# Dao
 
 The top priority for any build delivering the content and overall message to *any* device, keeping the site responsive and accessbile; optimising is not making sure the site looks nice on one device or when resizing the browser – this is bad practice.
 
