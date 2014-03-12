@@ -1,6 +1,6 @@
 # Accessibility
 
-##What is web accessibility?
+##What is Web Accessibility?
 
 Web accessibility is the inclusive practice of making your website
 usable by people with all abilities and disabilities, allowing equal
@@ -17,7 +17,7 @@ and as non-discriminatory as possible. Furthermore there are financial
 and usability benefits of making products and services accessible to a
 larger consumer base. 
 
-###Web accessibility and the law
+###Web accessibility and the Law
 
 In 2012 the Equality Act came into effect and replaced the Disability
 Discrimination Act 1995 making it illegal to discriminate against people
@@ -37,7 +37,7 @@ discrimination is there.
 ##Web Accessibility Considerations
 
 For many, web accessibility is simply catering for the blind; this is a
-shortsighted view. In Great Britain, there are over eleven million
+short-sighted view. In Great Britain, there are over eleven million
 people with a limiting long-term illness, impairment or disability the
 most commonly reported impairments are those that affect mobility,
 lifting or carrying. 
@@ -96,7 +96,7 @@ visual design but how do we address individual impairments?
 
 ###Visual Impairments
 
-**Problem**: Blindness, low vision, color-blindness, some of which could
+**Problem**: Blindness, low vision, colour-blindness, some of which could
 be caused by medical conditions or birth defects that cannot be
 corrected with glasses. 
 
@@ -124,7 +124,7 @@ other assistive technology such as speech recognition software.
 
 **Problem**: Such as learning disabilities, distractibility, inability
 to remember or focus on large amounts of information which could be
-brought on by various types of depression, or behavioral disorders.  
+brought on by various types of depression, or behavioural disorders.  
 
 **Solution**: Give the user plenty of time to interact with the content,
 and help them avoid mistakes with appropriate dialogs and warnings.
