@@ -17,7 +17,7 @@ and as non-discriminatory as possible. Furthermore there are financial
 and usability benefits of making products and services accessible to a
 larger consumer base. 
 
-###Web accessibility and the Law
+###Web Accessibility and the Law
 
 In 2012 the Equality Act came into effect and replaced the Disability
 Discrimination Act 1995 making it illegal to discriminate against people
