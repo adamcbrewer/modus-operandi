@@ -319,9 +319,9 @@ W3C Web Accessibility Initiative
  - http://www.seqlegal.com/blog/website-accessibility-and-equality-act-2010
  - http://www.rnib.org.uk/professionals/services/equalityact/pages/equality\_act\_compliance.aspx
  - http://www.legislation.gov.uk/ukpga/2010/15/part/3
- - http://www.legislation.gov.uk/ukpga/2010/15/section/20
- - http://www.legislation.gov.uk/ukpga/2010/15/section/21
- - http://www.legislation.gov.uk/ukpga/2010/15/section/29
+ 	- http://www.legislation.gov.uk/ukpga/2010/15/section/20
+ 	- http://www.legislation.gov.uk/ukpga/2010/15/section/21
+ 	- http://www.legislation.gov.uk/ukpga/2010/15/section/29
  - http://www.thirdsector.co.uk/news/619671/?DCMP=ILC-SEARCH
  - http://www.theregister.co.uk/2007/01/25/computer\_based\_exam\_discriminated\_against\_blind\_candidate/
  - http://www.w3.org/WAI/bcase/pol.html
