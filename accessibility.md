@@ -177,8 +177,8 @@ WCAG 2.0 is a stable, referenceable technical standard that has 12
 guidelines that are organized under the 4 principles mentioned earlier:
 **perceivable**, **operable**, **understandable**, and **robust**. For
 each guideline, there are testable success criteria, which meet three
-levels: **A**, **AA**, and **AAA**.  With **A**having the simplest and
-**AAA**having the greatest accessibility considerations.
+levels: **A**, **AA**, and **AAA**.  With **A** having the simplest and
+**AAA** having the greatest accessibility considerations.
 
 ###Web Accessibility Initiative - Accessible Rich Internet Applications
 
@@ -269,11 +269,11 @@ should be allocated for consultation and/or training.
 It is recommended that we aim for a WCAG 2.0 AA standard of
 accessibility whilst incorporating the usage of WAI-ARIA roles. Where
 applicable, and in certain circumstances, the level of accessibility
-will fluctuate between **A**an **AAA** to achieve the best user
+will fluctuate between **A** an **AAA** to achieve the best user
 experience. 
 
 Furthermore a standardized approach to development is documented during
-the build process.  Development teams take into account potential
+the build process. Development teams take into account potential
 accessibility issues and QA teams integrate this as part of their
 testing routine alongside automated testing software. 
 
@@ -285,7 +285,7 @@ improve the users perception of their experience. 
 
 ####General Principles
  - http://webaim.org/intro/
- - http://ec.europa.eu/ipg/standards/accessibility/index\_en.htm
+ - http://ec.europa.eu/ipg/standards/accessibility/
  - http://www.netxtra.net/insights/why-all-websites-should-be-accessible/
  - http://www.nomensa.com/blog/2012/7-web-accessibility-myths-2/
  - http://www.karlgroves.com/2011/11/30/how-expensive-is-accessibility/
@@ -317,13 +317,13 @@ W3C Web Accessibility Initiative
 
 ####Law & Compliance
  - http://www.seqlegal.com/blog/website-accessibility-and-equality-act-2010
- - http://www.rnib.org.uk/professionals/services/equalityact/pages/equality\_act\_compliance.aspx
+ - http://www.rnib.org.uk/professionals/services/equalityact/pages/equality_act_compliance.aspx
  - http://www.legislation.gov.uk/ukpga/2010/15/part/3
  	- http://www.legislation.gov.uk/ukpga/2010/15/section/20
  	- http://www.legislation.gov.uk/ukpga/2010/15/section/21
  	- http://www.legislation.gov.uk/ukpga/2010/15/section/29
  - http://www.thirdsector.co.uk/news/619671/?DCMP=ILC-SEARCH
- - http://www.theregister.co.uk/2007/01/25/computer\_based\_exam\_discriminated\_against\_blind\_candidate/
+ - http://www.theregister.co.uk/2007/01/25/computer_based_exam_discriminated_against_blind_candidate/
  - http://www.w3.org/WAI/bcase/pol.html
  - http://www.w3.org/WAI/bcase/socog-case-study
 
