@@ -16,6 +16,9 @@ This is a guideline showing the development standards I work to and conventions 
 + [Responsive Design](responsive-design.md)
 + [Browser Caveats](browser-caveats.md)
 
+## Contributors
++ [Stugoo](http://stugoo.co.uk)
+
 ## Inspiration, References & Credit
 * [Code-guide by @mdo](http://mdo.github.io/code-guide/)
 * [SuitCSS](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md)
