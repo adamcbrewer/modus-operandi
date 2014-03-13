@@ -5,7 +5,7 @@
 Web accessibility is the inclusive practice of making your website
 usable by people with all abilities and disabilities, allowing equal
 access to all content and functionality.  This means can they
-**perceive**, **understand**, **navigate** and **interact**with it.  
+**perceive**, **understand**, **navigate** and **interact** with it.  
 
 ##Why Web Accessibility?
 
@@ -19,7 +19,7 @@ larger consumer base. 
 
 ###Web Accessibility and the Law
 
-In 2012 the Equality Act came into effect and replaced the Disability
+In 2012 the Equality Act came into effect in the UK and replaced the Disability
 Discrimination Act 1995 making it illegal to discriminate against people
 with disabilities. 
 
