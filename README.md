@@ -9,7 +9,6 @@ This is a guideline showing the development standards I work to and conventions 
 + [Dao](dao.md)
 + [CSS/SASS Conventions](styles.md)
 + [Javascript](javascript.md)
-+ [HTML](html.md)
 + [Performance](performance.md)
 
 ### Nuggets of Truth
