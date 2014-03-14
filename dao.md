@@ -1,11 +1,11 @@
 # Dao
 
-The top priority for any build delivering the content and overall message to *any* device, keeping the site responsive and accessbile; optimising is not making sure the site looks nice on one device or when resizing the browser – this is bad practice.
+Top priority is delivering the content and message to any device, keeping the site responsive and accessbile.
 
-Supporting devices and platforms means delivering content, making sure it's accessible, but not necessarily functioning the same. Performance is key and something that impacts the experience – speed over nice-to-haves…always.
+Optimising is not making sure the site looks nice on one device or when resizing the browser – using only this as a means of feedback I consider bad practice.
 
-Progressive enhancement is the additional layer of functionality and good looks that would be required to make the site stand out.
+Supporting devices and platforms means delivering content, making sure it's accessible, but not necessarily functioning the same as there's a large separation of browser abilities. Now progressive enhancement is an additional layer of functionality and pimping that would be required to make the site stand out. In terms of performance, it's something extremely important and which can impact the experience in both a good and bad way.
 
-Sometimes projects can be a little too ambitious when it comes to both designing and building a site, device-agnostic (responsive) or not.
+A site can be both simple and give an amazing experience if things are given anough thought and approached sensibly. Trying to do too much awesome stuff means the code-base suffers and can quickly become unmaintainable.
 
-A site can be both simple and give an amazing experience, if things are approached sensibly. Trying to do too much 'awesome' stuff means your codebase can quickly go out the window and become unmaintainable if the developer doesn't know what they're doing.
+front-end performance, CSS architecture, scalability, pragmatism, and product-led development.
