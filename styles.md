@@ -4,6 +4,7 @@
 
 * Four-space indentation.
 * Remove unit specifiers with values of zero.
+* Never use `id` selectors.
 * Grouped selectors should be each be on their own line.
 * Comma-separated values should include a space after each comma.
 * Hex values should all be lowercase; shorthand where possible.
@@ -75,8 +76,8 @@ Typically these states are a result of some sort of Javascript interaction.
 It depends how complex the site is and how it functions, but adding a 'context' class [is new variation to me](https://github.com/suitcss). Contexts like `.has-content`, `.has-dropdown` and `.can-open` can be really expressive.
 
 
-### Hooks (for Javascript)
-Javascript hooks are prefixed with `.js-*` and **never** delared anywhere in stylesheets – his helps maintain good code/style separation.
+### Javascript Hooks
+`.js-*` class names should **never** be delared anywhere in stylesheets (helps to maintain good code/style separation. Please refer to the [Javascript:hooks section](javascript.md#hooks) for more detail.
 
 ```html
 <button class="btn btn--primary js-toggle"></button>
