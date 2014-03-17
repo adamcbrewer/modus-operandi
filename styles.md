@@ -77,7 +77,7 @@ It depends how complex the site is and how it functions, but adding a 'context' 
 
 
 ### Javascript Hooks
-`.js-*` class names should **never** be delared anywhere in stylesheets (helps to maintain good code/style separation. Please refer to the [Javascript:hooks section](javascript.md#hooks) for more detail.
+`.js-*` class names should **never** be delared anywhere in stylesheets (helps to maintain good code/style separation. Please refer to the [Javascript:hooks section](javascript.md#hooks--interactions) for more detail.
 
 ```html
 <button class="btn btn--primary js-toggle"></button>
