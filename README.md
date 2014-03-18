@@ -5,12 +5,13 @@ This is a guideline showing the development standards I work to and conventions 
 
 ## Table of Contents
 
-### My Own Development Standards
+### My Development Standards
 + [Dao](dao.md)
++ [Development Workflow](workflow.md)
 + [CSS/SASS Conventions](styles.md)
 + [Javascript](javascript.md)
-+ [Performance](performance.md)
-+ [Bad Practices](bad-practices.md)
++ [Notes on Performance](performance.md)
++ [Avoiding Bad Practices](bad-practices.md)
 
 ### Nuggets of Truth
 + [Responsive Design](responsive-design.md)
