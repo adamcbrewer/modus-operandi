@@ -10,11 +10,12 @@ This is a guideline showing the development standards I work to and conventions 
 + [CSS/SASS Conventions](styles.md)
 + [Javascript](javascript.md)
 + [Performance](performance.md)
++ [Bad Practices](bad-practices.md)
 
 ### Nuggets of Truth
 + [Responsive Design](responsive-design.md)
-+ [Browser Caveats](browser-caveats.md)
-+ [Accessibility](accessibility.md)
++ [Browser Headdesk's](browser-caveats.md)
++ [Foreword on Accessibility](accessibility.md)
 
 ## Contributors
 + [Stugoo](http://stugoo.co.uk)

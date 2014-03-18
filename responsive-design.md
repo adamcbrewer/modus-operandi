@@ -52,6 +52,7 @@ Both depend on the style & design. Pick your starting point and adjust bigger or
 ## Useful Links & Resources
 
 ### Required Reading & Watching
++ [A collaborative resource and excellent source](https://github.com/Snugug/north#responsive-web-design)
 + [John Allsop: A Dao of Web Design (April 07, 2000)](http://alistapart.com/article/dao/).
 + [Jeremy Keith talking about "unknown unknowns"](http://vimeo.com/50745034).
 
