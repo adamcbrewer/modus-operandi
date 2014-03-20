@@ -55,7 +55,7 @@ The extend of the BEM conventions totally depends on the size of the project and
 
 ### Modules
 
-Module names should be terse, non-presentational and broken down into module, submodules, modifiers, and states. If a module name comprises of two words then remove the spacing (although camelCasing could also be a consideration).
+Module names should be terse, non-representative of the content being styled and broken down into module, submodules, modifiers, and states. If a module name comprises of two words then remove the spacing (although camelCasing could also be a consideration [ala SuitCSS](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md)).
 
 ### Submodules
 
