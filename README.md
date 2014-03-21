@@ -12,6 +12,7 @@ This is a guideline showing the development standards I work to and conventions 
 + [Javascript](javascript.md)
 + [Notes on Performance](performance.md)
 + [Avoiding Bad Practices](bad-practices.md)
++ [Deploying](deployment.md)
 
 ### Nuggets of Truth
 + [Responsive Design](responsive-design.md)
