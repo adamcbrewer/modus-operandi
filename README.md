@@ -18,6 +18,7 @@ This is a guideline showing the development standards I work to and conventions 
 + [Responsive Design](responsive-design.md)
 + [Browser Headdesk's](browser-caveats.md)
 + [Foreword on Accessibility](accessibility.md)
++ [Prequlifying Clients](prequalifying.md)
 
 ## Contributors
 + [Stugoo](http://stugoo.co.uk)
