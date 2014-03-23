@@ -1,12 +1,12 @@
 modus-operandi
 ==============
 
-This is a guideline showing the development standards I work to and conventions I use (aka method of operation). Some content was added for reference and sharing.
+The development standards I work to and conventions I use (aka method of operation). Some content was added for reference and sharing.
 
 ## Table of Contents
 
 ### My Development Standards
-+ [Dao](dao.md)
++ [Manifesto](manifesto.md)
 + [Development Workflow](workflow.md)
 + [CSS/SASS Conventions](styles.md)
 + [Javascript](javascript.md)
