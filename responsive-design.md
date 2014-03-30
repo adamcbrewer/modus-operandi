@@ -34,7 +34,7 @@ I feel it’s best to know how a page is going to work inside and out before any
 
 #### On prototyping…
 
-I’ll build prototypes only if working to an iterative process or if the budget allows, but generally it’s a ‘this is how I think it’ll work’ and then just go for it. Responsive design is actually very easy, it’s only the functionality and special, creative features that complicate things. If I know enough of the project and don’t see any major problem areas then prototypes aren’t needed as there’s very little to worry about.
+I’ll build prototypes only if working to an iterative process or if the budget allows, but generally it’s a case of ‘this is how I think it’ll work’ and then just go for it. Responsive design is actually very easy, it’s only the functionality and special, creative features that complicate things. If I know enough of the project and don’t see any major problem areas then prototypes aren’t needed as there’s very little to worry about.
 
 ## Words from Others
 
