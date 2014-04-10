@@ -20,6 +20,9 @@ The development standards I work to and conventions I use (aka method of operati
 + [Foreword on Accessibility](accessibility.md)
 + [Prequlifying Clients](prequalifying.md)
 
+### Canned Responses
++ [Confirmation of Work](canned-responses/confirmation-of-work.md)
+
 ## Contributors
 + [Stugoo](http://stugoo.co.uk)
 
