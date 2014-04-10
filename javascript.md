@@ -55,13 +55,26 @@ Firstly, a good base is required to get things started and to set up the name sp
 	};
 
 	// the rest of your code
-	/* … */
+	/* ... */
 
 }(window, document));
 
 ```
 
-### The Single `var` Pattern
+### Coding Conventions
+
+#### Human-Readable
+
+At the risk of being overly verbose, this actually reduces the need for comments and code explanations. From experience, it flows really nicely and is a lot easier to grasp at first glance, especially when returning to old code.
+
+```js
+var doublePageFunctionalityEnabled = this.$pageImages.length === 2;
+if (doublePageFunctionalityEnabled) {
+    // code
+}
+```
+
+#### The Single `var` Pattern
 Pretty much all of my code has been written using the single declaration pattern, but having read [this article](http://danielhough.co.uk/blog/single-var-pattern-rant) by [@basicallydan](http://twitter.com/basicallydan) I hate to agree with him. I now try and use multiple vars where I can.
 
 ```js
@@ -77,7 +90,7 @@ var baz;
 
 ```
 
-### Hooks & Interactions
+#### Hooks & Interactions
 
 The `id` attribute and `.js-*` class names are reserved for any interaction required.
 
@@ -92,10 +105,10 @@ Purely interactive actions and triggers/toggles, `<button>` elements are used. I
 <button class="js-toggle" data-value="foo">Pump up this button</button>
 
 <!-- the targeted element… -->
-<article id="foo"><!-- … --></article>
+<article id="foo"><!-- ... --></article>
 
 <!-- …or a group of elements -->
-<li data-group="foo"><!-- … --></li>
-<li data-group="foo"><!-- … --></li>
-<li data-group="foo"><!-- … --></li>
+<li data-group="foo"><!-- ... --></li>
+<li data-group="foo"><!-- ... --></li>
+<li data-group="foo"><!-- ... --></li>
 ```
