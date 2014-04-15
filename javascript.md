@@ -65,10 +65,13 @@ Firstly, a good base is required to get things started and to set up the name sp
 
 #### Human-Readable
 
+> Don't be complex just for the sake of complexity.
+
 At the risk of being overly verbose, this actually reduces the need for comments and code explanations. From experience, it flows really nicely and is a lot easier to grasp at first glance, especially when returning to old code.
 
 ```js
 var doublePageFunctionalityEnabled = this.$pageImages.length === 2;
+
 if (doublePageFunctionalityEnabled) {
     // code
 }
