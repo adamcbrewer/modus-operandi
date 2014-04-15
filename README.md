@@ -22,6 +22,7 @@ The development standards I work to and conventions I use (aka method of operati
 
 ### Canned Responses
 + [Confirmation of Work](canned-responses/confirmation-of-work.md)
++ [Thanks, but I'm Unavailable](canned-responses/thanks-but-im-unavailable.md)
 
 ## Contributors
 + [Stugoo](http://stugoo.co.uk)
