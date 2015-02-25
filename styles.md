@@ -84,7 +84,7 @@ It depends how complex the site is and how it functions, but adding a 'context' 
 ```
 
 ### Utilities
-Low-level structure and composition. Utilities can be applied directly to any element within a component or exist on their own, such as `.u-pull-left` or `.u-inline-block`. I find utilities are only needed where designs contain a lot of unique styling situations.
+Low-level structure and composition. Utilities can be applied directly to any element within a component or exist on their own, such as `.u-pull-left` or `.u-inline-block`. I find utilities are only needed where designs contain a lot of unique styling situations, and **definitely not where utility styles should change responsively** as these quickly succumb to specificity issues.
 
 ### Using SASS
 * Variables should prefixed and grouped according to their purpose/function.
@@ -272,7 +272,7 @@ $ff: $f-body, Arial, sans-serif;
 * **AVOID:** `px`, `width` & `height` on all declarations. These are reserved for components whose dimentions and positions are unaffected by resizing/screen-size.
 * `max-width` should be the first port of call if a width declaration is required; height declarations are unnecessary 99% of the time if correct DOM flow is obeyed and the box-model is correctly understood.
 * Always use `%` units for left & right paddings and margins on `block` elements and components.
-* In addition to `%`, use `em` units for both `inline` and `inline-block` components.
+* In addition to `%`, use `rem` and `em` units for both `inline` and `inline-block` components.
 * Component margins should follow [single directions declarations](http://csswizardry.com/2012/06/single-direction-margin-declarations/).
 
 ```scss

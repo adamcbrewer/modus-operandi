@@ -7,7 +7,6 @@ The development standards I work to and conventions I use (aka method of operati
 
 ### My Development Standards
 + [Manifesto](manifesto.md)
-+ [Development Workflow](workflow.md)
 + [CSS/SASS Conventions](styles.md)
 + [Javascript](javascript.md)
 + [Notes on Performance](performance.md)
