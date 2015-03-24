@@ -20,8 +20,10 @@ The development standards I work to and conventions I use (aka method of operati
 + [Prequlifying Clients](prequalifying.md)
 
 ### Canned Responses
-+ [Confirmation of Work](canned-responses/confirmation-of-work.md)
-+ [Thanks, but I'm Unavailable](canned-responses/thanks-but-im-unavailable.md)
++ [First contact](canned-responses/first-contact.md)
++ [Confirmation of work](canned-responses/confirmation-of-work.md)
++ [Thanks, but I'm unavailable](canned-responses/thanks-but-im-unavailable.md)
++ [Politely decline](canned-responses/politely-decline.md.md)
 
 ## Contributors
 + [Stugoo](http://stugoo.co.uk)
